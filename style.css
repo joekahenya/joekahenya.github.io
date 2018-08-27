@@ -1,0 +1,93 @@
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: cursive;
+}
+
+.row {
+    display: -webkit-flex;
+    display: flex;
+    margin-top: 20px;
+}
+
+.column {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    padding: 10px;
+    height: 300px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+@media (max-width: 600px) {
+.row {
+      -webkit-flex-direction: column;
+      flex-direction: column;
+    }
+}
+.headerPic{
+  text-align:center;
+  height: 100px;
+  padding: 15.5em;
+  background-position: center;
+  background-image: url("landing.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.headerPic h2{
+  color: white;
+  font-size: 40px;
+  position: relative;
+  margin-top: -20vh;
+}
+
+.headerPic P{
+  color: white;
+  font-size: 20px;
+  position: relative;
+  /* margin-top: -20vh; */
+}
+
+#a{
+  background-image: url("dress.gif");
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+}
+
+#b{
+  background-image: url("giphy.gif");
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#c{
+  background-image: url("loafer.gif");
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#d{
+  background-image: url("stiletto.gif");
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#e{
+  background-image: url("wedges.gif");
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#f{
+  background-image: url("bootie.gif");
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
